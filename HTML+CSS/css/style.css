@@ -228,6 +228,30 @@ padding-top: 170px;
       margin-right: 20px;
       border-radius: 50%;
   }
+
+  /*contact-info*/
+
+  #contact-info .form-group{
+    margin-bottom: 20px;
+  }
+  #contact-info label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  #contact-info input,
+  #contact-info textarea{
+    width: 100%;
+    padding: 10px;
+    border:1px #ddd solid;
+  }
+  #contact-info textarea{
+      height:200px
+  }
+  #contact-info input:focus
+  #contact-info textarea:focus{
+    outline: none;
+    color:#7fc08a;
+  }
   /*footer*/
   #main-footer{
       text-align: center;
